@@ -1,12 +1,55 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml /DTD/xhtml - transional.dtd" >
 <html>
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pertama</title>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <h1>Selamat Datang Di Website Kami</h1>
+    <h2>Web Ini Adalah Tutorial  Pemrograman Web</h2>
+    <h3>Praktikum Pemrograman Web</h3>
+    <p><a href="http://uin-malang.ac.id">Teknik Informatika UIN Malang </a></p>
+    <img src="https://upload.wikimedia.org/wikipedia/id/d/d0/UIN_MAULANA_MALIK_IBRAHIM.jpg" width="180" height="auto" alt="Logo UIN Malang">    
+    <form method="POST" action="response2.jsp" enctype="multipart/form-data">
+        <select name="My Lab">
+            <option value="CC" selected>Lab. Praktikum Computer Vision</option>
+            <option value="SI">Lab. Sistem Informasi </option>
+            <option value="CAI">Lab. Computing & AI</option>
+        </select>
+        <input type="file" name="upload" value="" width="200">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>NIM</th>
+                    <th>Mahasiswa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>123</th>
+                    <th>Ani Rahmawati</th>
+                </tr>
+                <tr>
+                    <th>124</th>
+                    <th>Joko Maman Santoso</th>
+                </tr>
+            </tbody>
 
+        </table>
+    </form>
+    <ol type="A">
+        <li>Sistem Informasi</li>
+        <ul>
+            <li>Data Werehousing</li>
+            <li>Enterprice Architecture</li>
+        </ul>
+        <li>Multimedia</li>
+        <ul>
+            <li>Komputer Grafik</li>
+            <li>Mechinema</li>
+        </ul>
+    </ol>
 </body>
 </html>
